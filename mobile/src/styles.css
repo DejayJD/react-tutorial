@@ -1,0 +1,46 @@
+
+.app-wrapper {
+    display:flex;
+    position: fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+}
+.sidenav {
+    height:100%;
+    width:10%;
+    background-color: #e0e0e0;
+    padding:20px;
+}
+.body-wrapper{
+    left:240px;
+    top:0;
+    width:90%;
+}
+.header {
+    width:100%;
+    height:50px;
+    background-color: #ececec;
+    border-bottom:solid 1px gray;
+}
+.footer {
+    width:100%;
+    height:20px;
+    background-color: #ececec;
+    position:absolute;
+    bottom:0;
+    border-top:solid 1px gray;
+}
+.card {
+    min-height:200px;
+    width:250px;
+    border: solid 1px #d3d3d3;
+    box-shadow: 1px 1px #d3d3d3;
+    margin:10px;
+    padding:15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display:inline-block;
+}
